@@ -46,6 +46,55 @@ SELECT
 (SELECT COUNT(*) FROM sub_foods) 
 /(SELECT COUNT(*) FROM foods) AS average_sub_food;
 
+--Tinh trung binh sub_food cua mot food, tinh rieng biet tung food rieng biet
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 1) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 2) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 3) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 4) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 5) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 6) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 7) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 8) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 9) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 10) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 11) AS average_sub_food;
+
+SELECT
+1 
+/(SELECT COUNT(*) FROM sub_foods where sub_foods.food_id = 12) AS average_sub_food;
+
 
 
 DROP DATABASE IF EXISTS bai_tap_sql;
